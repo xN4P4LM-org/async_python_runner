@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "async-python-runner"
+version = "0.0.1"
+authors = [{ name = "Diana Moore", email = "contact@xn4p4lm.com" }]
+description = "A simple package to allow you to run multiple subprocesses by defining the directory and main method of the target python file."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MPL-2.0 License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "async",
+    "python",
+    "runner",
+    "subprocess",
+    "multiprocessing",
+    "threading",
+    "process",
+]
+license = { text = "MPL-2.0" }
+
+
+[project.urls]
+"Homepage" = "https://github.com/xn4p4lm-org/async_python_runner"
+"Bug Tracker" = "https://github.com/xn4p4lm-org/async_python_runner/issues"
+"Discussions" = "https://github.com/xn4p4lm-org/async_python_runner/discussions"
+
+[project.scripts]
+async_python_runner = "async_python_runner:main"

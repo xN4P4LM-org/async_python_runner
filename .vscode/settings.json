@@ -1,0 +1,9 @@
+{
+    "python.analysis.typeCheckingMode": "strict",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.rulers": [
+            88
+        ]
+    }
+}
